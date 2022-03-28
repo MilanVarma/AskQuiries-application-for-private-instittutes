@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: #186CCF;
+}
+
+nav a{
+    margin: 0.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+header .nav-btn{
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media screen and (max-width:500px) and (min-width:200px){
+    header{
+        background-color: transparent;
+    }
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        color: black;
+        font-size:xx-large;
+    }
+
+    
+        
+
+    header nav{
+       position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:flex-start;
+        padding: 100px;
+        gap: 1.5rem;
+        transition: 1s;
+        transform: translateX(-100vh);
+        background-color: #186CCF;
+        
+    }
+
+    nav a{
+        margin-bottom: 33px;
+        font-size: larger;
+        cursor: pointer;
+        
+    }
+
+    header .responsive_nav{
+        transform: none;
+    }
+
+    .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+
+   
+
+    .navbar_img{
+        width: 15%;
+        height: 50px;
+        border-radius: 50%;
+       
+    }
+    .navbar_img img{
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        border-radius: 50%;
+        
+    }
+}

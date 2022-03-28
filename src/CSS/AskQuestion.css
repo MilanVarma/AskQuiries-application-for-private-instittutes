@@ -1,0 +1,56 @@
+@media screen and (max-width:500px) and (min-width:200px)
+{
+
+.AskQuestionform{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content:center;
+}
+
+.AskQuestionform input{
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid #186CCF;
+}
+
+.AskQuestionform textarea{
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid #186CCF;
+}
+
+.AskQuestionform label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.AskQuestionform textarea{
+    height: 100px;
+    resize: none;
+    border: 2px solid #186CCF;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.AskQuestionform button{
+    background-color:#186CCF;
+    color: white;
+    border-radius: 15px;
+    padding:15px 30px;
+    margin-bottom: 15px;
+    font-size: larger;
+    border: 2px solid #186CCF;
+}
+
+.AskQuestionform h2{
+    text-align: center;
+    color: #186CCF;
+    margin-bottom: 50px;
+}
+}

@@ -1,0 +1,91 @@
+@media screen and (max-width:500px) and (min-width:200px)
+{
+    .viewquestion{
+        height: 500px;
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .likes{
+        display: flex;
+        gap: 20px;
+       
+    }
+
+    .likes p{
+        margin-right: 35px;
+        color:cadetblue;
+        margin-top: 15px;
+        margin-bottom: 0;
+        font-size: large;
+
+    }
+
+    .constraints{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .constraints p{
+        font-style: italic;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.63);
+    }
+
+    
+
+    .UserQuestion p {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .UserQuestion a{
+        width: 90%;
+        color: black;
+        font-size: large;
+        
+    }
+
+    .comments h4{
+        font-size: 19px;
+        margin-top: 22px;
+        margin-bottom: 13px;
+    }
+
+    .comments input{
+        padding: 15px 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        border: 2px solid #186CCF;
+        margin-bottom: 15px;
+        width:70%;
+    }
+
+    .comments button{
+        background-color:#186CCF;
+        color: white;
+        border-radius: 10px;
+        padding:10px 15px;
+        margin-bottom: 15px;
+        font-size: large;
+        border: 2px solid #186CCF;
+        width:35%;
+    }
+
+    .CommentsDisclamer{
+        width: 70%;
+    }
+
+    .CommentsDisclamer h5{
+        color:rgba(0, 0, 0, 0.63);
+        font-size: larger;
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+
+   
+    
+}

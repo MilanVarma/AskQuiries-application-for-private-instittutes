@@ -1,0 +1,84 @@
+@media screen and (max-width:500px) and (min-width:200px)
+{
+
+.HomePageSystem{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 50px auto;
+    
+}
+
+.AskSomethingDiv{
+    padding: 0 22px;
+    border-bottom: 4px solid #186CCF;
+    height: 220px;
+}
+
+.AskSomethingDiv h1{
+    font-size: 2rem;
+}
+
+.AskSomethingDiv button{
+    background-color:#186CCF;
+    color: white;
+    border-radius: 15px;
+    padding:10px 30px;
+    margin-bottom: 15px;
+    font-size: large;
+    border: 2px solid #186CCF;
+}
+
+.PublicQuestions{
+    padding: 0 20px;
+}
+
+.PublicQuestions h2{
+    font-size: 1.8rem;
+    color: #186CCF;
+}
+
+.PublicQuestions button{
+    background-color:transparent;
+    color:#186CCF;
+    font-size:22px;
+    padding: 0 20px;
+    border: transparent;
+    margin-top: 20px;
+   position: absolute;
+  
+   right: 0;
+
+}
+
+.HomePublicQuestions{
+    display: flex;
+    flex-direction: row;
+    min-height:4rem;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:90%;
+    background-color: #F2EDED;
+    color:grey;
+    margin-bottom: 10px;
+    line-height: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HomePublicQuestions h4{
+    color: black;
+}
+
+.HomePublicQuestions h3
+{
+    color: #186CCF;
+}
+
+.yourquestionsbanner p{
+    font-size: larger;
+    color:rgba(0, 0, 0, 0.63);
+    text-align: center;
+}
+}

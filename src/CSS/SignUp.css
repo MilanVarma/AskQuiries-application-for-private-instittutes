@@ -1,0 +1,78 @@
+@media screen and (max-width:500px) and (min-width:200px){
+    .Signuppage{
+        height: 50rem;
+        width: 85%;
+        margin:  auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .Signuppage h1{
+        color: #186CCF;
+        text-align: center;
+        
+    }
+
+    .Signininput{
+        padding: 15px 20px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: 2px solid #186CCF;
+        margin-bottom: 15px;
+    }
+
+    .Signininput:focus{
+        border-radius: 0;
+        border: 2px solid #186CCF;
+    }
+
+    .Signuppage button{
+        background-color:#186CCF;
+        color: white;
+        border-radius: 10px;
+        padding:10px 20px;
+        margin-bottom: 15px;
+        font-size: large;
+        border: 2px solid #186CCF;
+        width:35%;
+    }
+
+    .profileSelection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 220px;
+        
+       
+    }
+
+    
+
+    .imageDesign{
+        border: 3px solid #186CCF;
+        width: 30%;
+        border-radius: 50%;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .imageDesign img{
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        border-radius: 50%;
+        
+    }
+
+    .Signuppage p{
+        font-weight: bold;
+    
+    }
+
+    .Signuppage span{
+        color: #186CCF;
+    }
+}
